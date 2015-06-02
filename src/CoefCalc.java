@@ -5,12 +5,12 @@ public class CoefCalc {
 	
 	public static void main(String args[]) {
 		
-//		double[] mu1 = {-1, 1};
-//		double[] mu2 = {1, 0};
-//		
-//		// sigma: {{a b}, {c d}}
-//		double[][] sigma1 = {{1, 0}, {0, 1}};
-//		double[][] sigma2 = {{2, 2}, {2, 3}};
+		double[] mu1 = {-1, 1};
+		double[] mu2 = {1, 0};
+		
+		// sigma: {{a b}, {c d}}
+		double[][] sigma1 = {{1, 0}, {0, 1}};
+		double[][] sigma2 = {{2, 2}, {2, 3}};
 		
 		// original
 //		double[] mu1 = {-1.0198, 0.9001};
@@ -20,17 +20,14 @@ public class CoefCalc {
 //		double[][] sigma1 = {{0.9506, 0.0567}, {0.0567, 0.7909}};
 //		double[][] sigma2 = {{2.4361, 2.5306}, {2.5306, 3.5421}};
 //		
-//		double[][] inv1 = {{0, 0}, {0, 0}};
-//		double[][] inv2 = {{0, 0}, {0, 0}};
-		
 		// another training data
-		double[] mu1 = {-0.9530, 1.0437};
-		double[] mu2 = {0.9459, 0.0651};
-		
-		// sigma: {{a b}, {c d}}
-		double[][] sigma1 = {{1.0516, 0.1050}, {0.1050, 1.1071}};
-		double[][] sigma2 = {{1.5863, 1.6185}, {1.6185, 2.7065}};
-		
+//		double[] mu1 = {-0.9530, 1.0437};
+//		double[] mu2 = {0.9459, 0.0651};
+//		
+//		// sigma: {{a b}, {c d}}
+//		double[][] sigma1 = {{1.0516, 0.1050}, {0.1050, 1.1071}};
+//		double[][] sigma2 = {{1.5863, 1.6185}, {1.6185, 2.7065}};
+//		
 		double[][] inv1 = {{0, 0}, {0, 0}};
 		double[][] inv2 = {{0, 0}, {0, 0}};
 		
